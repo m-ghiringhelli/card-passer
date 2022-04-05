@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Card from './Card';
-import { useGameContext } from '../context/GameContext';
 
 export default function CardList({ player, cards }) {
   return (

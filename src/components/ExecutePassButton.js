@@ -2,16 +2,14 @@ import React from 'react';
 import Card from './Card';
 import { useGameContext } from '../context/GameContext';
 
-export default function ExecutePassButton({
-  passCard,
-  
-}) {
+export default function ExecutePassButton() {
   const { 
     setFrom,
     from,
     to,
     selectedCard,
-    setSelectedCard
+    setSelectedCard,
+    passCard
   } = useGameContext();
   
   return (
